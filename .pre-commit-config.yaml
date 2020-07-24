@@ -13,5 +13,4 @@ repos:
     -   id: check-yaml # checks for valid yaml
     -   id: end-of-file-fixer # checks for ending with a newline
     -   id: mixed-line-ending # consistent LF or CRLF
-    -   id: pretty-format-json
     -   id: trailing-whitespace # no trailing whitespace
