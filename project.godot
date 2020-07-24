@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="YOUR_PROJECT_NAME_HERE"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "gut" )
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
