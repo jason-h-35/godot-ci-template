@@ -1,0 +1,17 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+    -   id: check-added-large-files # Prevent giant files from being committed
+    -   id: check-byte-order-marker # Prevents weird UTF-8 encoding edge cases
+    -   id: check-case-conflict # Check if case-insensitive filesystems would bork
+    -   id: check-docstring-first # Check for if docstring was misplaced
+    -   id: check-executables-have-shebangs
+    -   id: check-json # checks for vaild json
+    -   id: check-merge-conflict # checks strings that look like a committed merge conflict
+    -   id: check-xml
+    -   id: check-yaml # checks for valid yaml
+    -   id: end-of-file-fixer # checks for ending with a newline
+    -   id: mixed-line-ending # consistent LF or CRLF
+    -   id: pretty-format-json
+    -   id: trailing-whitespace # no trailing whitespace
