@@ -20,3 +20,4 @@ This gives Godot devs out-of-the-box CI for their game projects
 * Modify `.pre-commit-config.yml` and comment out pre-commit hooks you don't want to run.
 * Modify `.gutconfig.json` to change how gut runs.
 * Modify the `GODOT_VERSION` env_var in `.gut.sh` to match your preferred version of Godot.
+* Modify the build status images at the top of this README to point to your build status instead of the template's
