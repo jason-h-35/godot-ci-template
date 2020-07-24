@@ -11,7 +11,7 @@ pre-installed as [GitHub Workflows](https://docs.github.com/en/actions/reference
 
 This gives Godot devs out-of-the-box CI/CD for their game projects
 
-## How do I use it
+## How do I use it?
 1. Make a repo from the template
 2. Open with Godot 3.2.2 or later
 3. Check `.pre-commit-config.yml` and comment out hooks you don't want run.
