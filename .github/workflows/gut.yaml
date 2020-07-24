@@ -11,4 +11,3 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: ./gut.sh
-    shell: bash
