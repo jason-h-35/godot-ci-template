@@ -1,0 +1,14 @@
+name: gut
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  gut:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: ./gut.sh
+    shell: bash
