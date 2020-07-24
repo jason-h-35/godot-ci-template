@@ -6,6 +6,8 @@ GODOT_URL=https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/${GODOT_Z
 
 if [[ -z "${GITHUB_WORKSPACE}" ]]; then
   GITHUB_WORKSPACE=$PWD
+fi
+
 curl ${GODOT_URL} --output ${GODOT_ZIP}
 unzip ${GODOT_ZIP}
 chmod +x ${GODOT_BIN}
