@@ -13,8 +13,9 @@ This gives Godot devs out-of-the-box CI for their game projects
 
 ## How do I use it?
 1. Make a repo from the template [here](https://github.com/jason-h-35/godot-ci-template/generate)
-2. Make commits as usual and add tests to `tests/unit` or `tests/integration`. Only filenames starting with `test_` get tested!
-3. When `master` gets a commit or a PR, the CI will just werk!
+2. Make commits as usual.
+3. Add tests to `tests/unit` or `tests/integration`. Only filenames starting with `test_` get tested!
+4. When `master` gets a commit or a PR, the CI will just werk!
 
 ## Optional
 * Modify `.pre-commit-config.yml` and comment out pre-commit hooks you don't want to run.
