@@ -7,7 +7,7 @@
 ## What is this repo?
 This is a bare-ish Godot project with
 [Gut](https://github.com/bitwes/Gut) and [Pre-commit](https://pre-commit.com/)
-pre-installed as GitHub Workflows.
+pre-installed as [GitHub Workflows](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions).
 
 This gives Godot devs out-of-the-box CI/CD for their game projects
 
