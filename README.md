@@ -4,6 +4,8 @@
 ![pre-commit](https://github.com/jason-h-35/godot-ci-template/workflows/pre-commit/badge.svg)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V51YS7O)
 
+![demo-gif](demo.gif)
+
 ## What is this repo?
 This is a bare-ish Godot project with
 [Gut](https://github.com/bitwes/Gut) and [Pre-commit](https://pre-commit.com/)
