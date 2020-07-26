@@ -1,4 +1,4 @@
-name: gut
+name: Gut
 
 on:
   pull_request:
@@ -9,5 +9,8 @@ jobs:
   gut:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - run: ./gut.sh
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Gut (gut.sh)
+        run: ./gut.sh
