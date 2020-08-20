@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.4.0
+    rev: v3.2.0
     hooks:
     -   id: check-added-large-files # Prevent giant files from being committed
     -   id: check-byte-order-marker # Prevents weird UTF-8 encoding edge cases
@@ -14,3 +14,11 @@ repos:
     -   id: end-of-file-fixer # checks for ending with a newline
     -   id: mixed-line-ending # consistent LF or CRLF
     -   id: trailing-whitespace # no trailing whitespace
+
+-   repo: https://github.com/Scony/godot-gdscript-toolkit
+    rev: master
+    hooks:
+    - id: gdlint
+      exclude: addons/.+
+#    - id: gdformat
+#      exclude: addons/.+
